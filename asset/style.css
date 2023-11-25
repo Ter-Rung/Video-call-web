@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+.infomation,
+.infomation * {
+    box-sizing: border-box;
+}
+
+.infomation {
+    background: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #886304;
+    border-width: 3px;
+    padding: 5.35% 0;
+    width: 470px;
+    height: 581px;
+    position: relative;
+    margin: 20px;
+}
+
+.ti-pencil {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 92.98%;
+    width: 7.02%;
+    bottom: 88.98%;
+    top: 5.34%;
+    height: 5.68%;
+    overflow: visible;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: calc(50% - 80px);
+    top: 5.33%;
+}
+
+
+.name {
+    color: #000000;
+    text-align: left;
+    font: 800 27px "-";
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 37%;
+}
+
+.span1 {
+    color: #000000;
+    font: 800 25px "-";
+}
+
+.span2 {
+    color: #000000;
+    font: 600 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.input {
+    border: #000000 2px solid;
+    font-size: 20px;
+    width: 300px;
+
+}
+
+.birthday {
+    color: #000000;
+    text-align: left;
+    font: 400 25px "-";
+    position: absolute;
+    left: 0px;
+    top: 59%;
+}
+
+.job {
+    color: #000000;
+    text-align: left;
+    font: 400 25px "-";
+    position: absolute;
+    left: 0px;
+    top: 69%;
+}
+
+.address {
+    color: #000000;
+    text-align: left;
+    font: 400 25px "-";
+    position: absolute;
+    left: 0px;
+    top: 79%;
+}
+
+.favorite {
+    color: #000000;
+    text-align: left;
+    font: 400 25px "-";
+    position: absolute;
+    left: 0px;
+    top: 89%;
+}
+
+
+.report,
+.report * {
+    box-sizing: border-box;
+}
+
+.report {
+    background: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #886304;
+    border-width: 3px;
+    width: 365px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.report1 {
+    color: #000000;
+    text-align: left;
+    font: 800 30px "Inter-ExtraBold", sans-serif;
+    position: absolute;
+    left: 131px;
+    top: 27px;
+}
+
+.report_line {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 365px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 91px;
+    transform-origin: 0 0;
+    transform: rotate(-0.151deg) scale(1, 1);
+}
+
+.report_form {
+    position: absolute;
+    top: 91px;
+    width: 100%;
+    height: calc(100% - 91px);
+    margin: 10px;
+}
+
+.report_18_input {
+    height: auto;
+    position: absolute;
+    right: 7.98%;
+    left: 85.75%;
+    width: 6.26%;
+    top: 8%;
+    height: 5%;
+    overflow: visible;
+}
+
+.report_18_label {
+    position: absolute;
+    top: 20px;
+    text-align: left;
+    font: 600 24px "-";
+
+}
+
+.report_noituc_input {
+    height: auto;
+    position: absolute;
+    right: 7.98%;
+    left: 85.75%;
+    width: 6.26%;
+    top: 28%;
+    height: 5%;
+    overflow: visible;
+}
+
+.report_noituc_label {
+    position: absolute;
+    top: 28%;
+    text-align: left;
+    font: 600 24px "-";
+}
+
+.report_other_input {
+    height: auto;
+    position: absolute;
+    right: 7.98%;
+    left: 85.75%;
+    width: 6.26%;
+    top: 48%;
+    height: 5%;
+    overflow: visible;
+}
+
+.report_other_label {
+    position: absolute;
+    top: 48%;
+    text-align: left;
+    font: 600 24px "-";
+}
+
+.report_other_text {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    right: 20%;
+    top: 47%;
+
+}
+
+.report_submit {
+    background: #091a1b;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #e6bd80;
+    border-width: 3px;
+    width: 288px;
+    height: 61px;
+    position: absolute;
+    left: 28px;
+    bottom: 10%;
+    color: #e7bd80;
+    text-align: center;
+    font: 800 25px "Inter-ExtraBold", sans-serif;
+
+}
