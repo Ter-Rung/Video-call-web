@@ -1,10 +1,7 @@
 "use strict"
 const pencil = document.querySelector('.ti-pencil');
-console.log(pencil)
 const inputs = document.querySelectorAll('.input');
-console.log(inputs)
 const span2 = document.querySelectorAll('.span2');
-console.log(span2)
 
 const hidespan2 = function () {
     span2.forEach(span => span.classList.toggle('hide'))
@@ -21,3 +18,5 @@ pencil.addEventListener('click', (e) => {
     showinput();
 
 })
+
+
