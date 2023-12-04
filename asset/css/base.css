@@ -1,0 +1,21 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+.grid{
+    /*border: 5px solid red;*/
+    width: 1470px; /*độ rộng của block element*/
+    max-width: 100%;
+    margin: auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,115 @@
+.header{
+    height: 64px;
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between; /*căn đối tượng ra 2 bên lề của trang web*/
+}
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px;
+    /* border: 3px solid black; */
+}
+.header__navbar-item{
+    display: inline-block; /*đưa đối tượng lên cùng 1 hàng*/
+}
+.header__navbar-item-link{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: orange;
+}
+.header__navbar-item-link{
+    margin: 10px;
+}
+.header__navbar-icon-link{
+    color: orange;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 0 4px;
+}
+.container{
+    height: 640px;
+    width: 1470px; /*độ rộng của container*/
+    margin: auto;
+    border: 3px solid pink;
+}
+.left{
+    width: 50%; /*độ rộng của div trái*/
+    height: 100%;/* độ cao của div trái */
+    border: 1px solid purple;
+    float: left;
+    background-image: url(/asset/images/background-dong-don-gian-ma-dep.gif);
+}
+.right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    border: 5px solid green;
+    background-image: url(/asset/images/cap-screen.png);
+}
+h1{
+    font-size: 80px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: orange;
+} 
+.btn{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 300px;
+    cursor: pointer;
+    transition: opacity 0.4s ease; /*độ trễ khi đổi màu*/
+    
+}
+.btn:hover{
+    opacity: 0.5; /*độ đục == đổi màu button*/
+}
+.btn-Filter{
+    background-color: orange;
+    font-size: 30px;
+}
+.btn-Start{
+    background-color: orange;
+    font-size: 20px;
+}
+.btn-Login{
+    background-color: green;
+    font-size: 10px;
+    padding: 1px 15px;
+    display: inline;
+    margin-top: 6px;
+}
+#i-vid{
+    font-size: x-large;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.footer{
+    border: 3px solid yellow;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/asset/images/black_footer.jpg);
+}
+h2{
+    color: white;
+    margin-top: 0;
+}
+p{
+    color: rgb(192, 155, 155);
+    margin-top: 0;
+    
+}
