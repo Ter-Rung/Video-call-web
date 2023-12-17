@@ -34,12 +34,12 @@
     height: 640px;
     width: 1470px; /*độ rộng của container*/
     margin: auto;
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 }
 .left{
     width: 50%; /*độ rộng của div trái*/
     height: 100%;/* độ cao của div trái */
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     float: left;
     background-image: url(/asset/images/background-dong-don-gian-ma-dep.gif);
 }
@@ -47,7 +47,7 @@
     float: right;
     width: 50%;
     height: 100%;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     background-image: url(/asset/images/cap-screen.png);
 }
 h1{
@@ -96,7 +96,7 @@ h1{
     margin-left: -10px;
 }
 .footer{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     clear: both;
     display: flex;
     flex-direction: column;
