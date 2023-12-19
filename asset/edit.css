@@ -1,0 +1,180 @@
+.container {
+    background: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #886304;
+    border-width: 3px;
+    width: 650px;
+    height: 1085px;
+    position: relative;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+}
+
+.register {
+    color: #000000;
+    text-align: center;
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    width: 100%;
+    height: 72px;
+    line-height: 72px;
+
+}
+
+.register_1 {
+    margin: 0px;
+    display: inline-block;
+}
+
+.ti-arrow-left {
+    display: inline-block;
+    position: relative;
+    left: -190px;
+}
+
+.line {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 71px;
+    transform-origin: 0 0;
+    transform: rotate(0.153deg) scale(1, 1);
+}
+
+
+
+.form {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 74px);
+}
+
+.alert {
+    position: relative;
+    width: auto;
+    height: 35px;
+    top: 0px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.alert-success {
+    background-color: #7eecbb;
+
+}
+
+.alert-danger {
+    background-color: #ea868f;
+}
+
+.avt {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 10px
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+}
+
+.avt_input {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.label_avt {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border: #886304 solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 180px;
+    bottom: 20px;
+    font-family: 'Inter-ExtraBold', sans-serif;
+
+}
+
+.form-data {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.div_input {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 30px;
+
+}
+
+.info_input {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    height: 30px;
+    position: absolute;
+    left: 28px;
+    right: 28px;
+    padding: 10px;
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+
+
+.error {
+    position: absolute;
+    bottom: 5px;
+    left: 28px;
+    font-size: 90%;
+    font-style: italic;
+    color: red;
+}
+
+.error_avt {
+    position: absolute;
+    bottom: 5px;
+    right: 28px;
+    font-size: 90%;
+    font-style: italic;
+    color: red;
+}
+
+.submit {
+    background-color: #000000;
+    color: #e7bd80;
+    text-align: center;
+    border-radius: 40px;
+    height: 50px;
+    bottom: 30%;
+
+}
+
+a {
+    text-decoration: none;
+}

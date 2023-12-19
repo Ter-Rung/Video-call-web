@@ -1,0 +1,32 @@
+* {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.frame {
+    border-radius: 40px;
+    border: 3px solid #886304;
+    background: #fff;
+}
+
+.btn {
+    border-radius: 40px;
+    border: 3px solid #e6bd80;
+    background: #091a1b;
+    color: #e7bd80;
+    font-size: 25px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
