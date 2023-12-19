@@ -186,5 +186,28 @@ html, body{
 }
 
 /* ================  ENDFOOTER  ================= */
+/* .message-box{
+    margin: 12px;
+}
 
+.message-box .nameUser{
+    color: #6b6a6a;
+    font-size: 16px;
+}
+
+.message-box .message{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.send-message {
+    margin-bottom: 12px;
+}
+
+.message-box-container{
+    font-size: 18px;
+    display: inline-block;
+} */
 
