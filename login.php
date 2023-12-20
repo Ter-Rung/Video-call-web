@@ -14,10 +14,13 @@ else
             $username = $filterAll['username'];
             $password = $filterAll['password'];
             //Lấy thông tin user
-            $sql = 'select password from users where username ="'.$username.'"';
+            $sql = 'select password,role from users where username ="'.$username.'"';
             $kq = select_user($sql);
+            
             if(!empty($kq)) {
                 $password_user = $kq['password'];
+                $role = $kq['role'];
+                print_r($role);
                 if(password_verify($password,$password_user)) {
                     //Tạo token login
                     date_default_timezone_set('Asia/Ho_Chi_Minh');
@@ -31,9 +34,14 @@ else
                         $condition = "username = '$username'; ";
                         $statusUpdate = update('logintoken',$dataUpdate,$condition);
                         if($statusUpdate) 
-                        {
+                        {   
                             setSession('loginToken',$tokenLogin);
-                            redirect('index.php');
+                            if($role == 'User') {
+                                redirect('index.php');
+                            }else 
+                            {
+                                redirect('admin.php');
+                            }
                         } 
                         else 
                         {
@@ -54,7 +62,12 @@ else
                         //Insert thành công
                         //lưu logintoken vào session
                         setSession('loginToken',$tokenLogin);
-                        redirect('index.php');
+                        if($role == 'User') {
+                            redirect('index.php');
+                        }else 
+                        {
+                            redirect('admin.php');
+                        }
                     } else {
                         setFlashData('msg','Không thể đăng nhập');
                         setFlashData('msg_type','danger');
