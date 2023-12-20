@@ -1,0 +1,105 @@
+.frame-3,
+.frame-3 * {
+    box-sizing: border-box;
+}
+
+.frame-3 {
+    background: #ffffff;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #886304;
+    border-width: 3px;
+    width: 450px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.filter {
+    color: #000000;
+    text-align: left;
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.line-2 {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 100%;
+    height: 0px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.div_fil {
+    position: relative;
+    width: 100%;
+    height: 360px;
+}
+
+.select_filter {
+    color: #000000;
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left: 150px
+}
+
+.div_filter {
+
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.span_filter {
+    color: #000000;
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+}
+
+.job {
+    left: 100px;
+}
+
+.gender {
+    left: 145px;
+}
+
+.birthday {
+    left: 135px;
+}
+
+
+.enter {
+    color: #e7bd80;
+    text-align: center;
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    left: 75px;
+    background: #091a1b;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #e6bd80;
+    border-width: 3px;
+    width: 288px;
+    height: 61px;
+    bottom: 10px;
+
+
+
+}
