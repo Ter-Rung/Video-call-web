@@ -3,7 +3,12 @@ require_once('header.php');
 
 //Kiểm tra trạng thái đăng nhập
 if(isLogin()) {
-    redirect('index.php');
+    if($role == 'User') {
+        redirect('index.php');
+    }else 
+    {
+        redirect('admin.php');
+    }
 }
 else 
 {
