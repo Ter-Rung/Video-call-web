@@ -145,6 +145,78 @@
 
 }
 
+.div_gender {
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    top: -6px;
+    padding: 20px;
+}
+
+.gender_input {
+    height: 30px;
+    width: 30px;
+
+}
+
+.span_gender {
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+    left: 28px;
+    top: -15px;
+}
+
+.label_gender {
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    top: -7px;
+}
+
+.label_input {
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    position: relative;
+    left: 28px;
+}
+
+.select_input {
+    padding: 0;
+}
+
+.span_hobby {
+    top: -5px;
+}
+
+.div_checkbox {
+    position: relative;
+    display: inline-block;
+    top: 35px;
+    left: -45px;
+
+}
+
+.checkbox_input {
+    width: 15px;
+    height: 25px;
+    position: relative;
+
+
+}
+
+.label_checkbox {
+    position: relative;
+    font-family: 'Inter-ExtraBold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    top: -7px;
+
+}
+
 
 
 .error {
