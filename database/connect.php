@@ -1,7 +1,7 @@
 
 <?php
-const _DB = 'testphp';
-const _HOST = 'localhost';
+const _DB = 'testphp'; // tên database
+const _HOST = 'localhost'; 
 const _USER ='root';
 const _PASS = '';
 
