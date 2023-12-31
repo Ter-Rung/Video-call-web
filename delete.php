@@ -9,5 +9,4 @@
     mysqLi_query( $conn, $sql );
 
     header('location: table.php');
-
 ?>

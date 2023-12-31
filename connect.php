@@ -3,11 +3,11 @@
     $server = 'localhost';
     $user = 'root';
     $pass = '';
-    $database = 'ad';
+    $database = 'test';
 
     $conn = new mysqLi($server, $user, $pass, $database);
 
-    if ($conn) 
+    if ($conn)
     {
         mysqLi_query($conn, "SET NAMES 'utf8' ");
         // echo 'Đã kết nối thành công';
